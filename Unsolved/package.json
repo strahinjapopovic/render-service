@@ -1,8 +1,12 @@
 {
   "name": "26-stu-render",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.17.1"
